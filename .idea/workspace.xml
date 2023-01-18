@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="219e8924-4fb0-40c0-8ec3-839140ccb539" name="Changes" comment="Added">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework_pathpattern.test.js" afterDir="false" />
+    <list default="true" id="219e8924-4fb0-40c0-8ec3-839140ccb539" name="Changes" comment="Take number 274536 on the path-pattern homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework_pathpattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_pathpattern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework_pathpattern.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework_pathpattern.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <recent name="C:\Users\miche\IdeaProjects\the_endless_empire\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.test select.Select a node at a path">
+  <component name="RunManager" selected="Jest.test select.Get null for a path pointing to a node not in the tree">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -102,10 +100,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.test select.Select a node at a path" />
         <item itemvalue="Jest.test select.Get null for a path pointing to a node not in the tree" />
         <item itemvalue="Jest.test select.Select a node at a relative path" />
         <item itemvalue="Jest.All Tests" />
+        <item itemvalue="Jest.test select.Select a node at a path" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +116,10 @@
       <option name="presentableId" value="Default" />
       <updated>1674035590421</updated>
       <workItem from="1674035592338" duration="1041000" />
-      <workItem from="1674059512751" duration="1525000" />
+      <workItem from="1674059512751" duration="2702000" />
+      <workItem from="1674062273020" duration="708000" />
+      <workItem from="1674064149697" duration="2063000" />
+      <workItem from="1674066469279" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="Added">
       <created>1674035692050</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674036146591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Take number 274536 on the path-pattern homework">
+      <created>1674062125743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674062125743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,18 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/homework_pathpattern.js</url>
-          <line>55</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Take number 274536 on the path-pattern homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Take number 274536 on the path-pattern homework" />
   </component>
 </project>
