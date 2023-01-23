@@ -45,15 +45,3 @@ select(path, pathTaken=[{}]) {
 }
 
 export {Node}
-
-/* Notes
-
-    pathTaken erstmal kontroll-placeholder, später eventuell verwendbar um nach finden des Ziel-Nodes rückwärtsgewandt den Realpfad auszugeben.
-    Aktuell eher ein Verzeichnis in welcher Reihenfolge die Nodes abgefragt wurden.
-
-    child.select(rest, this.children[1]);   -   immernoch nicht 100 prozentig sicher ob das gewünschte Ergebniss bei rum kommt aber erstmal schauen ob wir so weit kommen...
-
-    rest[0] === this.children[1].name   -   wird zwar verglichen aber bei gleichem Namen trotzdem die kondition nicht erfüllt..
-
-    pathTaken.push is not a function   -   typeerror seit Git push..
- */

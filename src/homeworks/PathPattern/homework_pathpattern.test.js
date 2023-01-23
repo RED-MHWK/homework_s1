@@ -37,6 +37,3 @@ describe('test select', () => {
     })
 
 })
-
-// Hätte der selectcode funktioniert, hätte ich testcases geschrieben die auch doppelte Treffer berücksichtigen.
-// Bei mehreren Treffern die Ergebnisse in ein array gepackt und dann mit dem zu erwartenden Array verglichen, basierend auf dem Beispiel in Slack mit H.
