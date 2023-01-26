@@ -37,16 +37,49 @@ const currentConc = [];
 if(hoursNeeded >= 24 || hoursNeeded <= 0){
     throw new Error('Hours needed for the process must be within the range 24 hours, therefore more than 0 and less than 24.');
     }
+if(hoursNeeded >= 4 && hoursneeded <= 23){
+    throw new Error('Sorry, these values are not considered for now...')
+}
 else{
     if (indexPos === pricePreview.length) {
         return cheapest;
     } else {
-for(let i = pricePreview[0]; i < hoursNeeded; i++){
-
-    currentConc.push(pricePreview.indexOf())
-    }
+    priceCompSt(hoursNeeded)
     }
 }
+}
+
+function priceCompSt(hoursNeeded){
+    if(hoursNeeded === 2) {
+        const [first, second, ...rest] = pricePreview;
+        const current = (first + second) / hoursNeeded;
+        for (let i = 0; i < rest.length; i++) {
+            let value = rest[i];
+            if (current < value) {
+                let windowedCheapest = pricePreview.indexOf(first)
+                return windowedCheapest;
+            }
+        }
+    }
+    else{
+        let pricePreview = rest;
+        priceCompSt(pricePreview);
+    }
+    if(hoursNeeded === 3) {
+        const [first, second, third, ...rest] = pricePreview;
+        const current = (first + second + third) / hoursNeeded;
+        for(let i = 0; i < rest.length; i++){
+            let value = rest[i];
+            if(current < value){
+                let windowedCheapest = pricePreview.indexOf(first)
+                return windowedCheapest;
+            }
+        }
+    }
+    else{
+        let pricePreview = rest;
+        priceCompSt(pricePreview);
+    }
 }
 
 
