@@ -8,14 +8,43 @@
 <body>
 <div class="baseGrid">
     <div class="mainFrame">
-        <input type="checkbox" id="AddOnA" name="AddOnA">
-        <input type="checkbox" id="AddOnB" name="AddOnB">
-        <input type="checkbox" id="AddOnC" name="AddOnC">
-        <input type="checkbox" id="AddOnD" name="AddOnD">
+        <div class="basePack">
+        <span class="addOn"> Base Package </span>
+        <span class="addOnPr"> 100.00 EUR</span>
+            <br>
+        </div>
+        <div class="checkBoxes">
+        <div class="packA">
+        <input type="checkbox" value="20"  id="AddOnA" name="AddOnA">
+        <label for="AddOnA" class="labelA"> Add-on A </label>
+        <span class="addOnPr"> 20.00 EUR </span>
+        </div>
+
+        <div class="packB">
+        <input type="checkbox" value="10" id="AddOnB" name="AddOnB">
+        <label for="AddOnB" class="labelB"> Add-on B </label>
+        <span class="addOnPr"> 10.00 EUR </span>
+        </div>
+
+        <div class="packC">
+        <input type="checkbox" value="15" id="AddOnC" name="AddOnC">
+        <label for="AddOnC" class="labelC"> Add-on C </label>
+        <span class="addOnPr"> 15.00 EUR </span>
+        </div>
+
+        <div class="packD">
+        <input type="checkbox" value="30"  id="AddOnD" name="AddOnD">
+        <label for="AddOnD" class="labelD"> Add-on D </label>
+        <span class="addOnPr"> 30.00 EUR </span>
+        </div>
+        </div>
     </div>
     <div class="result">
-        <span class="price">Total Price</span>
+        <span class="price">Total Price </span>
+        <span class="priceTot" id="priceResult"> 100.00 </span>
+        <span class="price"> EUR </span>
     </div>
 </div>
+<script src="Add-ons-code.js"></script>
 </body>
 </html>
