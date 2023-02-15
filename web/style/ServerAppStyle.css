@@ -1,0 +1,59 @@
+html{
+    background: #2d2d2d;
+    color: #efece1;
+}
+.baseGrid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(1fr, 1200px));
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+.mainFrame{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.headIn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.headField{
+    width: 60vw;
+ }
+.bodyIn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bodyField{
+    height: 50vh;
+    width: 60vw;
+}
+.postBtn{
+    display: flex;
+justify-content: flex-end;
+}
+.fixed{
+    color: #efece1;
+}
+.href{
+    font-size: 10rem;
+    color: #efece1;
+}
+.indexLay{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
