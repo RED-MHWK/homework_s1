@@ -24,6 +24,8 @@ app.get('/output', (request, response) => {
     response.render('serverapp_output', {x, y});
 })
 
+
+
 const port = 8080;
 app.listen(port, () => {
     console.log(`Server App listening on port ${port}`)

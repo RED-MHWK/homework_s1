@@ -5,7 +5,7 @@ html{
 .baseGrid{
     display: grid;
     grid-template-columns: repeat(3, minmax(1fr, 1200px));
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     justify-content: center;
     gap: 1rem;
 }
