@@ -1,0 +1,121 @@
+html{
+    background: #2d2d2d;
+    color: #efece1;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-rows: minmax(auto, 40vh) auto auto auto minmax(auto, 40vh) ;
+    grid-template-columns: minmax(10vw, auto) minmax(auto, 1200px) minmax(10vw, auto) ;
+    gap: 0.5rem;
+}
+.gridContainerChat{
+    display: grid;
+    grid-template-rows: minmax(1vh, auto);
+    grid-template-columns: minmax(10vw, auto) minmax(auto, 1200px) minmax(10vw, auto) ;
+    gap: 0.5rem;
+}
+
+/********************* Login *********************/
+
+.labelCon{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: start;
+}
+.loginLabel{
+    font-size: 1.5rem;
+}
+.loginInput{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(166,166,166,0.2);
+}
+.buttonCon{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: end;
+}
+.loginButton{
+    color: #efece1;
+    background-color: #202020;
+    border: solid black 1px;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 2rem;
+    width: 4.5rem;
+    box-shadow: 0px 0px 10px 0px rgba(166, 166, 166, 0.2);
+}
+
+/********************* Chat *********************/
+
+.messageCon{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+li{
+    list-style-type: none;
+    font-size: large;
+    word-break: break-word;
+    max-width: 30vw;
+    border: #efece1 solid 0.01rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.mine{
+    color: pink;
+    background-color: #3d3d3d;
+    align-self: flex-end;
+    border-radius: 10px 0px 10px 10px;
+}
+.others{
+    color: greenyellow;
+    background-color: #464545;
+    align-self: flex-start;
+    border-radius: 0px 10px 10px 10px;
+}
+.author{
+    font-size: small;
+    color: #efece1;
+}
+.date{
+    font-size: x-small;
+    color: #efece1;
+}
+.form{
+    display: flex;
+    position: fixed;
+    bottom: 1rem;
+    left: 20vw;
+    right: auto;
+}
+.textChat{
+    width: 60vw;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(166,166,166,0.2);
+}
+.chatButton{
+    color: #efece1;
+    background-color: #202020;
+    border: solid black 1px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(166, 166, 166, 0.2);
+}

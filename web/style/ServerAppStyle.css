@@ -57,3 +57,9 @@ justify-content: flex-end;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.mine{
+    color: pink;
+}
+.others{
+    color: greenyellow;
+}

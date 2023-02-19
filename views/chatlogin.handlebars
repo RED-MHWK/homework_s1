@@ -1,0 +1,21 @@
+
+<form class="gridContainer" action="/messages" method="get">
+
+    <div class="labelCon">
+    <label for="author" class="loginLabel">Your Name:</label>
+    </div>
+
+
+    <input  type="text"
+            id="author"
+            name="author"
+            class="loginInput"
+            autocomplete="off"
+            oninvalid="this.setCustomValidity('Please enter an username to continue..')";
+            required>
+
+    <div class="buttonCon">
+    <button class="loginButton" type="submit">Join</button>
+    </div>
+
+</form>
